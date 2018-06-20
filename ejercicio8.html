@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<title>Box model</title>
+			<style type="text/css" media="screen">
+				body,html { margin: 0; }
+				.clearfix {
+				overflow: auto;
+				}
+				ul.menu {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+				}
+				ul.menu li {
+				box-sizing: border-box;
+				padding: 10px;
+				background: olive;
+				width: 25%;
+				float: left;
+				}
+				ul.menu li a {
+				color: #FFF;
+				text-decoration: none;￼
+				display: block;
+				padding: 20px;
+				}
+				ul.menu li a:hover {
+				background: #000;
+				}
+				#neg{
+				width: 50%;
+				background-color: black;
+				position: relative;
+				}
+				#newneg{
+				background-color: black;
+				}
+			</style>
+		</head>
+		<body>
+			<div class="clearfix">
+				<ul class="menu">
+					<li id="newneg"><a href="#" id="neg">Item-1</a></li>
+					<li><a href="#" class="static">Item-2</a></li>
+					<li><a href="#" class="static">Item-3</a></li>
+				</ul>
+			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum aperiam omnis magni aut vo </p>
+		</body>
+	</html>
